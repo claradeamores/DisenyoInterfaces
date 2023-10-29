@@ -94,3 +94,12 @@ div {
 }
 
 ```
+### Logo.
+
+En mi logo he utilizado los colores azul y rojo ya que pueden combinarse de manera atractiva si se utilizan de manera equilibrada. También crean un contraste interesante y agradable a la vista que puede atrer la atención de los visitantes de la página web.
+Por otro lado he escogido una forma redondeada que contenga la imagen y nombre de la página ya que puede ayudar a dirigir la atención hacia el centro de la composición, de igual manera suelen percibirse como más suaves y amigables en comparación con las formas angulares y puntiagudas, por lo que transmite una sensación acogedora y amigable. La imagen escogida demuestra claramente la intención de mi página, que al ser una tabla con ingredientes y un cuchillo se trnasmite claramente la intencion la página web. 
+También he usado las letras en mayúsculas ya que mejoran la legibilidad para el usuario, proporcionan seriedad a la marca y le da una imagen más sólida a mi diseño.
+
+Logo: ![Rojo #FF756B](./diseño/logo_final.png)
+
+
