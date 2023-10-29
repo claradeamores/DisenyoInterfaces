@@ -28,10 +28,10 @@ Y por último el amarillo que se asocia por un lado con la alegria, el optimismo
 Por último me gustaría destacar que tanto la bandera Española, Francesa o Italiana reunen varios de estos colores. Son culturas cuyo reconocimiento culinario está ampliamente estendido y que son referentes de la cocina mediterránea, una de las mas saludables a nivel mundial.
 
 **Captura**
-Rojo #FF756B: ![Rojo #FF756B](./colores/rojo.png)
-Verde #80E560: ![Verde #80E560](./colores/verde.png)
-Azul #5E81C5: ![Azul #5E81C5](./colores/azul.png)
-Amarillo #FFED6B: ![Amarillo #FFED6B](./colores/amarillo.png)
+Rojo #FF756B: ![Rojo #FF756B](Colores/rojo.png)
+Verde #80E560: ![Verde #80E560](Colores/verde.png)
+Azul #5E81C5: ![Azul #5E81C5](Colores/azul.png)
+Amarillo #FFED6B: ![Amarillo #FFED6B](Colores/amarillo.png)
 
 **Fichero HTML**
 
@@ -100,6 +100,6 @@ En mi logo he utilizado los colores azul y rojo ya que pueden combinarse de mane
 Por otro lado he escogido una forma redondeada que contenga la imagen y nombre de la página ya que puede ayudar a dirigir la atención hacia el centro de la composición, de igual manera suelen percibirse como más suaves y amigables en comparación con las formas angulares y puntiagudas, por lo que transmite una sensación acogedora y amigable. La imagen escogida demuestra claramente la intención de mi página, que al ser una tabla con ingredientes y un cuchillo se trnasmite claramente la intencion la página web. 
 También he usado las letras en mayúsculas ya que mejoran la legibilidad para el usuario, proporcionan seriedad a la marca y le da una imagen más sólida a mi diseño.
 
-Logo: ![Rojo #FF756B](./diseño/logo_final.png)
+Logo: ![Logo](Diseño/logo_final.png).
 
 
