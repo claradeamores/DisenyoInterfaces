@@ -138,11 +138,15 @@ Presentación de los wireframes avanzados de la Landing Page resposive y web y d
 ![responsive](Diseño/paginaSecundariaMovil.png)
 
 ### Prototipos
-Presentación de las propuestas gráficas avanzados de la Landing Page resposive y web. He realizado algunos cambios sobre el wireframe ya que a la hora de diseñar y mostrar contenido me han parecido adecuados, He usado la gama de colores elegida. El amarillo de fondo lo he dejado con una saturación muy baja para que fuera casi blanco y no resultara demasiado llamativo.
+Presentación de las propuestas gráficas avanzados de la Landing Page resposive y web. He realizado algunos cambios sobre los wireframe ya que a la hora de diseñar y mostrar contenido me haa parecido adecuados, he usado la gama de colores elegida. El amarillo de fondo lo he dejado con una saturación muy baja para que fuera casi blanco y no resultara demasiado llamativo.
 
 **Propuesta gráfica Landing Page Web**
 
-![web](Diseño/propuesta_gráfiva_web.png)
+![web](Diseño/propuesta_grafica_web.png)
+
+**Propuesta gráfica Landing Page Responsive**
+
+![web](Diseño/propuesta_grafica_movil.png)
 
 
 
