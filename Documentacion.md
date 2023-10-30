@@ -100,6 +100,53 @@ En mi logo he utilizado los colores azul y rojo ya que pueden combinarse de mane
 Por otro lado he escogido una forma redondeada que contenga la imagen y nombre de la página ya que puede ayudar a dirigir la atención hacia el centro de la composición, de igual manera suelen percibirse como más suaves y amigables en comparación con las formas angulares y puntiagudas, por lo que transmite una sensación acogedora y amigable. La imagen escogida demuestra claramente la intención de mi página, que al ser una tabla con ingredientes y un cuchillo se trnasmite claramente la intencion la página web. 
 También he usado las letras en mayúsculas ya que mejoran la legibilidad para el usuario, proporcionan seriedad a la marca y le da una imagen más sólida a mi diseño.
 
-Logo: ![Logo](Diseño/logo_final.png).
+**Logo** 
+
+![Logo](Diseño/logo_final.png).
+
+## Diseño
+
+### Bocetos
+Presentación de bocetos originales para la página web, tanto el boceto web como el responsive.
+
+**Boceto Web**
+
+![Web](Diseño/deAmoresCuaresmaClara_boceto_web.png)
+
+**Boceto responsive**
+
+![responsive](Diseño/deAmoresCuaresmaClara_boceto_movil.png)
+
+### Wireframes
+Presentación de los wireframes avanzados de la Landing Page resposive y web y de una página segundaria tambien en los dos formatos.
+
+**Wireframe Landing Page Web**
+
+![Web](Diseño/deAmoresCuaresmaClara_wireframe_web.png)
+
+**Wireframe Landing Page responsive**
+
+![responsive](Diseño/deAmoresCuaresmaClara_wireframe_movil.png)
+
+
+**Wireframe Landing Page secundaria1 Web**
+
+![Secundaria1](Diseño/paginaSecundariWeb.png)
+
+**Wireframe Landing Page Responsive**
+
+![responsive](Diseño/paginaSecundariaMovil.png)
+
+### Prototipos
+Presentación de las propuestas gráficas avanzados de la Landing Page resposive y web. He realizado algunos cambios sobre el wireframe ya que a la hora de diseñar y mostrar contenido me han parecido adecuados, He usado la gama de colores elegida. El amarillo de fondo lo he dejado con una saturación muy baja para que fuera casi blanco y no resultara demasiado llamativo.
+
+**Propuesta gráfica Landing Page Web**
+
+![web](Diseño/propuesta_gráfiva_web.png)
+
+
+
+
+
 
 
