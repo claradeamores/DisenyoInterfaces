@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": ".."
+	},
+	{
+		"path": "../../Cliente/T3/Ejercicio5"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Diseño"
+  }
+}

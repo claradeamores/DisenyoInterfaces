@@ -1,0 +1,30 @@
+/*Colores: #1b74e4, #3c3c3c, #757575, #ffffff,
+#f2f2f2, #b1b1b1, #dfdfdf, red, #ffe4e4*/
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+.text-center{
+    text-align: center;
+}
+.access-block{
+    background-color: #ffffff;
+    width: 50%;
+    margin: 0 auto;
+    padding: 2%;
+    display: block;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.item-top{
+    margin-left: 4px;
+}
+.item-bottom{
+    margin-left: 4px;
+}

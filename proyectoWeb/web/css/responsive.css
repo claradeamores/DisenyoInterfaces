@@ -1,0 +1,91 @@
+/* Media query para pantallas de hasta 1670px */
+@media (max-width: 1670px) {
+    .contenedor-titulo {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        width: 12%;
+        max-width: 120px;
+        margin-left: 1em;
+        top: 0;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        margin-left: 1em;
+    }
+
+    .login-btn {
+        margin-left: auto;
+        margin-right: 2em;
+    }
+
+    .slider-all {
+        flex-direction: column;
+        margin-left: 3%;
+    }
+
+    .buscador {
+        margin-left: 12%;
+    }
+
+    .buscar {
+        width: 50%;
+    }
+
+    .recetario img {
+        width: 40%;
+        margin-left: 0;
+    }
+
+    .evento img {
+        width: 40%;
+        margin-left: 0;
+    }
+
+    .valoradas div img {
+        width: 60%;
+        height: 64%;
+        margin-top: 1em;
+    }
+
+    .deliciosas div img {
+        width: 30%;
+        height: 32%;
+    }
+
+    .derecha div img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        object-fit: cover;
+    }
+
+    .footer {
+        margin: 3em 0 0 0;
+    }
+
+    .contenedor-footer {
+        margin-top: 5em;
+    }
+
+    .enlaces-a, .enlaces-b {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .enlaces-b img {
+        width: 5%;
+        height: 5%;
+    }
+
+    .enlaces-b div:last-child img:hover {
+        transform: scale(1);
+    }
+
+    .legal {
+        font-size: 0.8em;
+    }
+}

@@ -1,0 +1,51 @@
+h1 {
+    text-align: center;
+    font-family: 'Rubik Scribble', sans-serif;
+    color: green;
+}
+
+.checkEjercicio {
+    display: flex;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.5);
+    width: 64px;
+    height: 64px;
+    border: white 4px solid;
+    top: 19.5%;
+    margin-left: 48%;
+    align-content: center;
+}
+
+label {
+    border: 4px solid black;
+    width: 58px;
+    height: 56px;
+    cursor: pointer;
+    position: relative;
+}
+
+input[type=checkbox] {
+    appearance: none;
+    position: absolute;
+    opacity: 0;
+}
+
+label::before {
+    content: "";
+    display: block;
+    height: 55.5px;
+    width: 56px;
+    border: 4px solid white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    box-sizing: border-box;
+}
+label:hover::before {
+    background-color: green;
+    opacity: 0.3;
+}
+input[type=checkbox]:checked + label::before {
+    background-color: green;
+    opacity: 1;
+}

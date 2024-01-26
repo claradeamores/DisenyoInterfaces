@@ -1,0 +1,20 @@
+.contenedor{
+    background-color: #4caf50;
+    color: white;
+    border-right: 1em solid #000000;
+    border-bottom: 3em dashed #999999;
+    width: 50%;
+    padding: 3em;
+    font-size: 1em;
+}
+.contenedor2{
+    margin-top: 5em;
+    background-color: #000000;
+    color: white;
+    border-top: 1em solid #4caf50; 
+    border-bottom: 1em solid #4caf50; 
+    border-left: 2em solid #000000; 
+    width: 75%;
+    padding: 2em;
+    font-size: 1em;
+}

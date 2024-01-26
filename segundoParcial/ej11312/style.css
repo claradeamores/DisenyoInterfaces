@@ -1,0 +1,7 @@
+.contenedor{
+    border: 5px red solid;
+    width: 20%;
+    /*margin: 0 auto; se pone en medio*/
+    margin: 0 35%;
+    padding: 5%;
+}

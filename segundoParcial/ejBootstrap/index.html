@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es_ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <a href="index.html"><img class="img-fluid w-50 mx-auto d-block" src="./img/logo.png" alt=""></a>
+            </div>
+            <div class="col-9 mt-5">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
+                    <div class="container-fluid p-3">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Clases de Repostería</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Sobre Nosotros</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Nuestros Dulces
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Trucos de Repostería</a></li>
+                                        <li><a class="dropdown-item" href="#">Todos los Dulces</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Contacta</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Buscar Dulces"
+                                    aria-label="Search">
+                                <button class="btn btn-outline-light" type="submit">Buscar</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row text-center mt-3">
+            <div class="col-3">
+                <div class="list-group">
+                    <p class="list-group-item lista fs-4">CATEGORÍAS</p>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-light">Con Fruta</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-light">Al Horno</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-light">Helados</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-light">Tradicionales</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-light">Fáciles</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-light">Innovadores</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-light">Fechas
+                        Especiales</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-light">Para Hacer Con
+                        Niños</a>
+
+                </div>
+            </div>
+            <div class="col-3">
+            <div class="card mb-2" id="tartaQueso">
+                <img class=" card-img-top img-fluid" src="./img/cheesecake-caramel-600w-1020564922.webp"
+                    alt="Card image">
+                <div class="card-body">
+                    <p class="card-title fw-bold">New York Cheesecake</p>
+                    </form>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-text"><span class="fst-italic">Categoría:</span> Al Horno</p>
+                    <form>
+                        <p class="clasificacion">
+                            <input id="radio1" type="radio" name="estrellas" value="5">
+                            <label for="radio1">★</label>
+                            <input id="radio2" type="radio" name="estrellas" value="4">
+                            <label for="radio2">★</label>
+                            <input id="radio3" type="radio" name="estrellas" value="3">
+                            <label for="radio3">★</label>
+                            <input id="radio4" type="radio" name="estrellas" value="2">
+                            <label for="radio4">★</label>
+                            <input id="radio5" type="radio" name="estrellas" value="1">
+                            <label for="radio5">★</label>
+                        </p>
+                    </form>
+                    <a href="#tartaQueso" class="btn-menu btn receta"
+                        onclick="verReceta('tartaQueso','https://www.youtube.com/embed/PITDCnGZpBw?si=7c1oSzOT9hkppssR mute=1', 'New York CheeseCake', 'Al Horno')">Ver
+                        Receta</a>
+                </div>
+            </div>
+            <div class="card mb-2" id="pudding">
+                <img class=" card-img-top img-fluid" src="./img/caramel-custard-pudding-flan-crema-600w-1921748936.webp"
+                    alt="Card image">
+                <div class="card-body">
+                    <p class="card-title fw-bold">Pudding de Croissant y Chocolate</p>
+                    </form>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-text"><span class="fst-italic">Categoría:</span> Fáciles</p>
+                    <form>
+                        <p class="clasificacion">
+                            <input id="radio1" type="radio" name="estrellas" value="5">
+                            <label for="radio1">★</label>
+                            <input id="radio2" type="radio" name="estrellas" value="4">
+                            <label for="radio2">★</label>
+                            <input id="radio3" type="radio" name="estrellas" value="3">
+                            <label for="radio3">★</label>
+                            <input id="radio4" type="radio" name="estrellas" value="2">
+                            <label for="radio4">★</label>
+                            <input id="radio5" type="radio" name="estrellas" value="1">
+                            <label for="radio5">★</label>
+                        </p>
+                    </form>
+                    <a href="#pudding" class="btn-menu btn receta"
+                        onclick='verReceta("pudding", "https://www.youtube.com/embed/TO9ZdPHweXg?si=E01v9IjdXBDnFrqh mute=1", "Pudding de Croissant y Chocolate", "Fáciles")'>Ver
+                        Receta</a>
+                </div>
+            </div>
+            <div class="card mb-2" id="tortitas">
+                <img class="card-img-top img-fluid"
+                    src="./img/closeup-delicious-pancakes-fresh-blueberries-600w-1069350137.webp" alt="Card image">
+                <div class="card-body">
+                    <p class="card-title fw-bold">Tortitas con Arándanos</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-text"><span class="fst-italic">Categoría:</span> Con Frutas</p>
+                    <form>
+                        <p class="clasificacion">
+                            <input id="radio1" type="radio" name="estrellas" value="5">
+                            <label for="radio1">★</label>
+                            <input id="radio2" type="radio" name="estrellas" value="4">
+                            <label for="radio2">★</label>
+                            <input id="radio3" type="radio" name="estrellas" value="3">
+                            <label for="radio3">★</label>
+                            <input id="radio4" type="radio" name="estrellas" value="2">
+                            <label for="radio4">★</label>
+                            <input id="radio5" type="radio" name="estrellas" value="1">
+                            <label for="radio5">★</label>
+                        </p>
+                    </form>
+                    <a href="#tortitas" class="btn-menu btn receta"
+                        onclick="verReceta('tortitas', 'https://www.youtube.com/embed/Uu1ZIG9v7G4?si=ecoPQNgmizLsUKJj mute=1', 'Tortitas con Arándanos', 'Con Frutas')">Ver
+                        Receta</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card mb-2" id="brownie">
+                <img class="card-img-top img-fluid" src="./img/homemade-chocolate-brownies-on-grey-600w-648142261.webp"
+                    alt="Card image">
+                <div class="card-body">
+                    <p class="card-title fw-bold">Brownie de Chocolate</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-text"><span class="fst-italic">Categoría:</span> Fáciles</p>
+                    <form>
+                        <p class="clasificacion">
+                            <input id="radio1" type="radio" name="estrellas" value="5">
+                            <label for="radio1">★</label>
+                            <input id="radio2" type="radio" name="estrellas" value="4">
+                            <label for="radio2">★</label>
+                            <input id="radio3" type="radio" name="estrellas" value="3">
+                            <label for="radio3">★</label>
+                            <input id="radio4" type="radio" name="estrellas" value="2">
+                            <label for="radio4">★</label>
+                            <input id="radio5" type="radio" name="estrellas" value="1">
+                            <label for="radio5">★</label>
+                        </p>
+                    </form>
+                    <a href="#brownie" class="btn-menu btn receta"
+                        onclick="verReceta('brownie', 'https://www.youtube.com/embed/Z1OLG7F3HD4?si=DuBi6fqSRdwQTp6pmute=1', 'Brownie de Chocolate', 'Fáciles')">Ver
+                        Receta</a>
+                </div>
+            </div>
+            <div class="card mb-2" id="mochi">
+                <img class="card-img-top img-fluid" src="./img/japanese-ice-cream-mochi-rice-600w-1650443434.webp"
+                    alt="Card image">
+                <div class="card-body">
+                    <p class="card-title fw-bold">Helado de Mochi</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-text"><span class="fst-italic">Categoría:</span> Helados</p>
+                    <form>
+                        <p class="clasificacion">
+                            <input id="radio1" type="radio" name="estrellas" value="5">
+                            <label for="radio1">★</label>
+                            <input id="radio2" type="radio" name="estrellas" value="4">
+                            <label for="radio2">★</label>
+                            <input id="radio3" type="radio" name="estrellas" value="3">
+                            <label for="radio3">★</label>
+                            <input id="radio4" type="radio" name="estrellas" value="2">
+                            <label for="radio4">★</label>
+                            <input id="radio5" type="radio" name="estrellas" value="1">
+                            <label for="radio5">★</label>
+                        </p>
+                    </form>
+                    <a href="#mochi" class="btn-menu btn receta"
+                        onclick="verReceta('mochi', 'https://www.youtube.com/embed/6gOT_43fO_M?si=h8Y1ba7neUIXucg6mute=1', 'Helado de Mochi', 'Helados')">Ver
+                        Receta</a>
+                </div>
+            </div>
+            <div class="card mb-2" id="flan">
+                <img class="card-img-top img-fluid"
+                    src="./img/neapolitan-flan-caramel-decorated-cherry-600w-1993788479.webp" alt="Card image">
+                <div class="card-body">
+                    <p class="card-title fw-bold">Flan de Caramelo</p>
+                    </form>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-text"><span class="fst-italic">Categoría:</span> Tradicionales</p>
+                    <form>
+                        <p class="clasificacion">
+                            <input id="radio1" type="radio" name="estrellas" value="5">
+                            <label for="radio1">★</label>
+                            <input id="radio2" type="radio" name="estrellas" value="4">
+                            <label for="radio2">★</label>
+                            <input id="radio3" type="radio" name="estrellas" value="3">
+                            <label for="radio3">★</label>
+                            <input id="radio4" type="radio" name="estrellas" value="2">
+                            <label for="radio4">★</label>
+                            <input id="radio5" type="radio" name="estrellas" value="1">
+                            <label for="radio5">★</label>
+                        </p>
+                    </form>
+                    <a href="#flan" class="btn-menu btn receta"
+                        onclick="verReceta('flan', 'https://www.youtube.com/embed/Q4YoTTu0hjc?si=ANov0kaJoFAJHC75 mute=1', 'Flan de Caramelo', 'Tradicionales')">Ver
+                        Receta</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card mb-2" id="arrozLeche">
+                <img class="card-img-top img-fluid" src="./img/peruvian-arroz-con-leche-dessert-600w-1306944403.webp"
+                    alt="Card image">
+                <div class="card-body">
+                    <p class="card-title fw-bold">Arroz con Leche</p>
+                    </form>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-text"><span class="fst-italic">Categoría:</span> Tradicionales</p>
+                    <form>
+                        <p class="clasificacion">
+                            <input id="radio1" type="radio" name="estrellas" value="5">
+                            <label for="radio1">★</label>
+                            <input id="radio2" type="radio" name="estrellas" value="4">
+                            <label for="radio2">★</label>
+                            <input id="radio3" type="radio" name="estrellas" value="3">
+                            <label for="radio3">★</label>
+                            <input id="radio4" type="radio" name="estrellas" value="2">
+                            <label for="radio4">★</label>
+                            <input id="radio5" type="radio" name="estrellas" value="1">
+                            <label for="radio5">★</label>
+                        </p>
+                    </form>
+                    <a href="#arrozLeche" class="btn-menu btn receta"
+                        onclick="verReceta('arrozLeche', 'https://www.youtube.com/embed/RZidv3Bypp0?si=w4w2l7RiapqGNQcr mute=1', 'Arroz con Leche', 'Tradicionales')">Ver
+                        Receta</a>
+                </div>
+            </div>
+            <div class="card mb-2" id="reese">
+                <img class="card-img-top img-fluid" src="./img/reeses puffs.png" alt="Card image">
+                <div class="card-body">
+                    <p class="card-title fw-bold">Reese's Caseros</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-text"><span class="fst-italic">Categoría:</span> Innovadores</p>
+                    <form>
+                        <p class="clasificacion">
+                            <input id="radio1" type="radio" name="estrellas" value="5">
+                            <label for="radio1">★</label>
+                            <input id="radio2" type="radio" name="estrellas" value="4">
+                            <label for="radio2">★</label>
+                            <input id="radio3" type="radio" name="estrellas" value="3">
+                            <label for="radio3">★</label>
+                            <input id="radio4" type="radio" name="estrellas" value="2">
+                            <label for="radio4">★</label>
+                            <input id="radio5" type="radio" name="estrellas" value="1">
+                            <label for="radio5">★</label>
+                        </p>
+                    </form>
+                    <a href="#reese" class="btn-menu btn receta"
+                        onclick="verReceta('reese', 'https://www.youtube.com/embed/h9DpIdSvD60?si=cJg-1ZbTdrdGhaCE mute=1', 'Reese`s Caseros', 'Innovadores' )">Ver
+                        Receta</a>
+                </div>
+            </div>
+            <div class="card mb-2" id="tocino">
+                <img class="card-img-top img-fluid" src="./img/tocino-de-cielo-traditional-dessert-600w-1867485793.webp"
+                    alt="Card image">
+                <div class="card-body">
+                    <p class="card-title fw-bold">Tocino de Cielo</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-text"><span class="fst-italic">Categoría:</span> Tradicionales</p>
+                    <form>
+                        <p class="clasificacion">
+                            <input id="radio1" type="radio" name="estrellas1" value="5">
+                            <label for="radio1">★</label>
+                            <input id="radio2" type="radio" name="estrellas2" value="4">
+                            <label for="radio2">★</label>
+                            <input id="radio3" type="radio" name="estrellas3" value="3">
+                            <label for="radio3">★</label>
+                            <input id="radio4" type="radio" name="estrellas4" value="2">
+                            <label for="radio4">★</label>
+                            <input id="radio5" type="radio" name="estrellas" value="1">
+                            <label for="radio5">★</label>
+                        </p>
+                    </form>
+                    <a href="#tocino" class="btn-menu btn receta"
+                        onclick="verReceta('tocino', 'https://www.youtube.com/embed/baQ6RXEALcM?si=OV6MjJaOX1ToyzEw mute=1', 'Tocino de Cielo', 'Tradicionales')">Ver
+                        Receta</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/action.js"></script>
+</body>
+
+</html>

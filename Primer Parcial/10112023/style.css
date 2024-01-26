@@ -1,0 +1,7 @@
+.flex_item{
+    width: 10%;
+}
+/*para quitar el valor por defecto de fontawesome se escogen las dos clases*/
+.fas,.fa-book{
+color: green;
+}

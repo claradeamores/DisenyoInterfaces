@@ -1,0 +1,21 @@
+body{
+    padding: 2em;
+}
+.contenedor{
+    background-color: green;
+    padding: 2%;
+    color: white;
+}
+@media print{
+    h2,p{
+        display: none;
+    }
+    .contenedor{
+        color: pink;
+    }
+}
+@media print,screen{
+    h2,p{
+        display: none;
+    }
+}

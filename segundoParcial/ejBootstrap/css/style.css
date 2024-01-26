@@ -1,0 +1,88 @@
+body {
+    background-color: #f1eff4;
+    font-family: 'Mulish', sans-serif;
+}
+.nav-bar{
+    background-color: #f1eff4;
+}
+.container-fluid{
+    background-color: #725d95;
+}
+.col-3.menu{
+    background-color: #f1eff4;
+}
+.nav-link{
+    font-size: 1.25em;
+    color: #f1eff4;
+}
+.dropdown-menu {
+    background-color: #725d95;
+}
+.dropdown-item{
+    color: #f1eff4;
+}
+.dropdown-item:hover{
+    background-color: #f1eff4;
+}
+.lista{
+    background-color: #725d95;
+    color: #f1eff4;
+}
+
+.card {
+    background-color: #f6fafa;
+}
+.receta{
+    color: #739292;
+    border-color: #739292;
+    border-width: 2px;
+    font-weight: 500;
+}
+.receta:hover{
+    background-color: #739292;
+    color: #f6fafa;
+    border-color: #739292;
+}
+
+.card-img-top {
+    height: 200px;
+}
+
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+}
+
+#form p {
+    text-align: center;
+}
+
+#form label {
+    font-size: 20px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    color: #739292;
+}
+
+.clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover~label {
+    color: gold;
+}
+
+input[type="radio"]:checked~label {
+    color: gold;
+}
+iframe{
+    height:230px;
+}

@@ -1,0 +1,33 @@
+@media (max-width: 1024px) {
+    .apartado1,
+    .apartado2,
+    .apartado3 {
+      width: calc((70% / 2));
+      width: 35%;
+      margin: 0 5%;
+    }
+  }
+  @media (max-width: 768px) {
+    .apartado1,
+    .apartado2,
+    .apartado3 {
+      width: calc((92% / 2));
+      width: 46%;
+      margin: 0 2%;
+    }
+    .contenedor{
+      font-size: 1.5rem;
+    }
+    h1{
+      font-size: 3rem;
+    }
+  }
+  @media (max-width: 600px) {
+      .apartado1,
+      .apartado2,
+      .apartado3 {
+        width: 96%;
+        margin: 0 2%;
+      }
+    }
+  
