@@ -1,30 +1,93 @@
 /*Colores: #1b74e4, #3c3c3c, #757575, #ffffff,
 #f2f2f2, #b1b1b1, #dfdfdf, red, #ffe4e4*/
-body{
-    font-family: 'Open Sans', sans-serif;
+body {
+    font-family: "Open Sans", sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f2f2f2;
 }
-.text-center{
-    text-align: center;
-}
-.access-block{
+
+.row.white-back {
     background-color: #ffffff;
-    width: 50%;
-    margin: 0 auto;
-    padding: 2%;
-    display: block;
-}
-.item{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    padding-bottom: 10%;
 }
 
-.item-top{
-    margin-left: 4px;
+span {
+    color: #3c3c3c;
 }
-.item-bottom{
-    margin-left: 4px;
+
+.top-par {
+    line-height: 2em;
+}
+
+.gris {
+    color: #757575;
+}
+.boton-container{
+    display: flex;
+    line-height: 1em;
+}
+
+
+.btns {
+    border-radius: 75px;
+    color: #ffffff;
+    align-content: center;
+    width: 30%;
+    position: relative;
+    background-color: #1b74e4;
+}
+
+
+.izquierda{
+    position: absolute;
+    margin-left: 1%;
+    
+}
+.derecha{
+    margin-left: 16.5%;
+    position: absolute;
+}
+.form-control::placeholder{
+    color: #b1b1b1;
+}
+.fila-iniciar{
+    display: flex;
+    justify-content: space-between;
+}
+.bot-iniciar{
+    border: none;
+    color: #f2f2f2;
+    background-color: #1b74e4;
+    border-radius: 75px;
+}
+.bot-iniciar:disabled{
+    background-color: #757575;
+    color: white;
+}
+.log-media{
+    background-color: #f2f2f2;
+}
+.fa-facebook{
+    color: #ffffff;
+}
+.faceb{
+    background-color: #1b74e4;
+    color: white;
+}
+.goog{
+    background-color: #ffffff;
+    color: black;
+}
+.cliente{
+    background-color: #ffffff;
+    color: #3c3c3c;
+    font-weight: bold;
+}
+.fa-chevron-circle-right{
+    color: #b7b7b7;
+    font-size: 1.5em;
+}
+.container-cuenta, .container-cliente{
+    display: none;
 }

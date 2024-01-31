@@ -1,0 +1,57 @@
+/*
+Colores: #1b74e4, #3c3c3c, #757575, #ffffff,
+#f2f2f2, #b1b1b1, #dfdfdf, red, #ffe4e4
+❑ Fuentes: Open Sans Regular 400
+*/
+body {
+    background-color: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+    color: #3c3c3c;
+}
+.textoCentrado{
+    text-align: center;
+}
+.bloqueBlanco {
+    background-color: #ffffff;
+    padding: 2% 5% 5%;
+}
+button {
+    background-color: #1b74e4;
+    color: #fff;
+    border: 0px;
+    border-radius: 2em;
+    padding: 1em;
+    width: 100%;
+    font-size: 100%;
+}
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.contenedor .item {
+    width: 50%;
+    padding: 0 2%;
+}
+.contenedorAcceso  {
+    width: 50%;
+    margin: 0 auto;
+    padding: 2%;
+}
+h1 {
+    font-weight: normal;
+}
+p {
+    line-height: 2em;
+    color: #757575;
+}
+button:hover {
+    cursor: pointer;
+}
+button:disabled {
+    background-color: grey;
+}
+button:disabled:hover {
+    cursor:not-allowed;
+}

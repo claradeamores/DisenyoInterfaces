@@ -1,0 +1,21 @@
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.apartado1,
+.apartado2,
+.apartado3 {
+    width: calc( 70% / 3);
+    width: 23.33%;
+    margin: 0 5%;
+}
+.apartado2 {
+    
+}
+.apartado3 {
+    
+}
+img {
+    width: 100%;
+}

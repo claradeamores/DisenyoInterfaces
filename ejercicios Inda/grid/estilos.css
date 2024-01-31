@@ -1,0 +1,111 @@
+.contenedor{
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 15% 25% 25% 25% 1fr;
+    /*grid-template-columns: repeat(4,25%);*/
+    height: 500px;
+}
+.logo{
+    grid-column: 1 / 2;
+    grid-row: 1 / span 1;
+}
+.logo img {
+    height: 100%;;
+}
+nav.menu{
+    grid-column: 2 / span 3;
+    grid-row: 1 / 2;
+}
+nav.menu ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    list-style: none;
+}
+.categorias{
+    grid-column: 1 /2;
+    grid-row: 2 / span 2;
+}
+.productos{
+    grid-column: 2 / span 3;
+    grid-row: 2 / span 2;
+}
+.contenedorProductos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.item {
+    width: calc(88%/3);
+    margin: 2%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.item img {
+    width: 50%;
+}
+.titulo {
+    font-size: 2em;
+    width: 100%;
+}
+.menu-mobile {
+    display: none;
+    
+}
+@media (max-width:900px){
+    .logo {
+        grid-column:3 / 4;
+    }
+    .menu-mobile {
+        grid-column: 5 / 6;
+        grid-row: 1 / 2;
+        display: block;
+    }
+    .menu {
+        display: none;
+    }
+    .categorias {
+        grid-column: 1 / 6;
+        grid-row: 2 / span 1;
+        text-align: center;
+    }
+    .categorias ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        list-style: none;
+    }
+    .productos{
+        grid-column: 1 / span 5;
+        grid-row: 3 / span 2;
+        text-align: center;
+    }
+    .descripcion {
+        width: 50%;
+    }
+}
+@media (max-width:500px){
+    .contenedorProductos {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .item {
+        width: 96%;
+        margin: 2%;
+        text-align: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo img {
+        width: 100%;
+        height: auto;
+    }
+}

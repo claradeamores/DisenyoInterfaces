@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividades jQuery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="css/estilos.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="contenedorAcceso textoCentrado">
+        <h1>Acceso</h1>
+        <div class="bloqueBlanco">
+            <p>Inicia sesión con tu cuenta<br/>o crea una cuenta nueva.</p>
+            <div class="contenedor">
+                <div class="item">
+                    <p><strong>¿Tienes ya una cuenta?</strong></p>
+                    <button id="iniciarSesion" disabled="true">Iniciar sesión</button>
+                </div>
+                <div class="item">
+                    <p><strong>¿No tienes cuenta?</strong></p>
+                    <button id="crearCuenta">Crear una cuenta</button>
+                </div>
+            </div>
+            <div class="contenedor2">
+                <input type="email" class="email">
+                <input type="password" class="password">
+                <button disabled id="iniciar">Iniciar</button>
+            </div>
+            
+        </div>
+    </div>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/comunes.js"></script>
+</body>
+</html>

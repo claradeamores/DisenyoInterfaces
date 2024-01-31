@@ -1,0 +1,103 @@
+@media(max-width:1880px) {
+    .bottom {
+        margin-top: 20%;
+    }
+}
+
+@media(max-width:982px) {
+    .bottom {
+        margin-top: 15%;
+    }
+
+    .par {
+        width: 35%;
+        margin: auto;
+    }
+
+    .par3 {
+        display: none;
+    }
+}
+
+@media(max-width:844px) {
+    .bottom {
+        margin-top: 5%;
+    }
+}
+
+@media(max-width:799px) {
+    .media {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media(max-width:732px) {
+    .container-top {
+        display: block;
+    }
+
+    .title-top {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .image {
+        width: 100%;
+        margin: auto;
+        display: flex;
+
+    }
+
+    .media {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        font-size: 3em;
+    }
+
+    .media a {
+        width: 25%;
+    }
+
+    .cart {
+        width: 25%;
+        font-size: 4em;
+    }
+
+    .container-par {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .par1,
+    .par2,
+    .par3 {
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+@media (max-width:440px) {
+    .bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: 85%;
+        transform: translateY(-50%);
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+        text-align: center;
+    }
+
+    .bottom div {
+        width: 100%;
+    }
+}

@@ -1,0 +1,49 @@
+body {
+    font-family: 'Segoe UI';
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 90%;
+    margin: 0.25em auto 0 auto;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+}
+.icono{
+    width: 30%;
+    margin-top: 2em;
+}
+.icono img{
+    width: 13%;
+    position: absolute;
+    margin-left: 12.5%;
+}
+.texto{
+    position: relative;
+    width: 70%;
+}
+.par{
+    margin: 2em auto 2em 5%;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.par-top, .par-middle, .par-bottom{   
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    margin:0 auto 0 9%; 
+}
+.negrita{
+    padding-left: 1em;
+}
+.normal{
+    width: 80%;
+}
+

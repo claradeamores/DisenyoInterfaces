@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    text-align: right;
+    background-color: black;
+    color: #f2f2f2;
+    padding: 0.75em 0 0.75em 0;
+    font-size: 1.75em;
+
+}
+.burguer{
+    margin-right: 1em;
+}
+.container-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.title-top{
+    width: 60%;
+    font-size: 2em;
+}
+.image{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.image a{
+    text-decoration: none;
+    color: #000000;
+}
+.media{
+    font-size: 1.5em;
+}
+.media a{
+    text-decoration: none;
+    color: #f2f2f2;
+}
+.faceb{
+    background-color: #3b5998;
+    padding: 5px 10px 5px 10px;
+}
+.twit{
+    background-color: #00acee;
+    padding: 5px;
+}
+.envel{
+    background-color: gray;
+    padding: 5px;
+}
+.cart{
+    font-size: 2.5em;
+}
+.container-par{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5% auto 0 auto;
+    position: absolute;
+}
+.par1, .par2, .par3{
+    width: 15%;
+    margin: 0 2em 0 0;
+}
+.container-par h2{
+    color: #4a74ce;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 2em;
+    position: fixed;
+    width: 100%;
+    z-index: 1; 
+    margin-top: 24%;
+}
+.faceb1, .what, .twit1, .plus{
+    width: 25%;
+    padding: 0.5% 12.5% 0.5% 12.5%;
+    color: white;   
+}
+.faceb1{
+    background-color: #3b5998;
+}
+.what{
+    background-color: #25d366;
+}
+.twit1{
+    background-color: #00acee;
+}
+.plus{
+    background-color: red;
+}
