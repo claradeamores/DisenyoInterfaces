@@ -79,7 +79,7 @@ header{
     position: fixed;
     width: 100%;
     z-index: 1; 
-    margin-top: 24%;
+    bottom: 0;
 }
 .faceb1, .what, .twit1, .plus{
     width: 25%;

@@ -1,0 +1,119 @@
+/*Colores: #fcfcfc, #0074d4, #909090, #505050, #ededed, #252525, #0074d4 y #ffffff.
+Imagen google: https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-256.png*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ededed;
+}
+.container{
+    width: 30%;
+    max-width: 1842px;
+    height: auto;
+    margin: 5% auto 3% auto;
+    background-color: #fcfcfc;
+    border-radius: 5%;
+    text-align: center;
+    padding: 2em;
+    padding-bottom: 4em;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    color: #0074d4;
+    margin-bottom: 1.75em;
+}
+
+.div-form{
+    width: 69%;
+    margin: auto 18% auto auto;
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.div-form input{
+    border: none;
+    border-bottom: 2px solid #909090;
+    padding: 1em;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+
+}
+.div-form input::placeholder{
+    color: #909090;
+    font-size: 1.25em;
+    text-align: left;
+    transform: translate(-2.5%);
+}
+.r1{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    color: #252525;
+    margin-left: 0.25em;
+}
+.r1 p{
+    margin-left: 0.5em;
+    font-size: 1rem;
+}
+.botones{
+    width: 45%;
+    margin: 1em auto auto auto;
+    display: flex;
+    flex-direction: column;
+}
+.b1{
+    padding: 1em 1.75em 1em 1.75em;
+    border-radius: 25px;
+    border: none;
+    color: #252525;
+    background-color: #ededed;
+    font-weight: 600;
+    cursor: pointer;
+}
+.b1:hover{    
+    color: #ffffff;
+    background-color: #909090;
+
+}
+.botones a{
+    text-align: left;
+    color: #252525;
+    width: 100%;    
+    font-weight: 600;
+    margin: 0.5em 0;
+
+}
+.a1{
+    margin: 1.5em auto 0.25em 0;
+    font-size: 0.9em;
+}
+.a2{
+    margin: 0.25em auto 0 2px;
+    padding-bottom: 2em;
+}
+.b2{
+    padding: 0.4em 1.75em 0.4em 1.75em;
+    border-radius: 25px;
+    border: none;
+    color: #fcfcfc;;
+    background-color: #0074d4;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.b2 img{
+    width: 15%;
+    height: auto;
+    margin-right: 1em;
+    margin-left: 0;
+    transform: translate(-10px);
+    
+}
