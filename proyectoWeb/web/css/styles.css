@@ -1,0 +1,403 @@
+body {
+    margin: 0.25%;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #fdfcef;
+}
+h1{
+    color: #1e56c7;
+    transform: translateY(-75%);
+}
+
+.container-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    width: 12%;
+    height: 12%;
+    cursor: pointer;
+}
+.navbar {
+    padding: 1% auto;
+}
+.navbar .container-fluid{
+    background-color: #1e56c7;
+    height: 100%;
+    display: flex;
+    align-items: center;   
+}
+
+.nav-link {
+    color: #fdfcef;
+}
+
+.nav-link:hover {
+    font-weight: bold;
+    color: #fdfcef;
+}
+
+.buscar input::placeholder {
+    color: #1e56c7;
+    font-size: 0.75em;
+}
+
+.boton-buscar {
+    color: #fdfcef;
+    border-color: #fdfcef;
+    background-color: #1e56c7;
+}
+
+.boton-buscar:hover {
+    color: #1e56c7;
+    border-color: #1e56c7;
+    background-color: #fdfcef;
+}
+
+.boton-buscar:active {
+    color: #fdfcef !important;
+    border-color: #fdfcef !important;
+    background-color: #1e56c7 !important;
+}
+
+.container-fluid button span {
+    color: #fdfcef;
+}
+
+.container-slider {
+    display: flex;
+    align-items: stretch;
+}
+
+.carousel-caption p, .carousel-caption h2 a {
+    font-weight: bold;
+    color: #fdfcef;
+}
+
+.rojo:hover {
+    background-color: #fe483b;
+    color: #fdfcef;
+}
+
+.rojo-section {
+    color: #fe483b;
+}
+
+.rojo-section:hover {
+    color: #fdfcef;
+    background-color: #fe483b;
+}
+
+.container-recetario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titulo-valoradas {
+    margin-left: 1%;
+}
+.titulo-valoradas h1{
+    color: #000;
+}
+
+.container-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    background-color: #fdfcef;
+}
+
+.card {
+    background-color: #fdfcef;
+    border: none;
+}
+
+.card-body a {
+    color: black;
+    text-decoration: none;
+}
+
+.verde {
+    color: #80e560;
+}
+
+.verde:hover {
+    color: #fdfcef;
+    background-color: #80e560;
+}
+
+.container-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    width: calc(10% - 20px);
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+
+.item:hover {
+    transform: translateY(-5px);
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.item a {
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.consejos {
+    display: flex;
+    flex-direction: row;
+    width: 78.5%;
+    margin-left: 15%;
+}
+
+.ultima div p {
+    margin-bottom: 1.75em;
+}
+
+.izquierda {
+    width: 30%;
+    position: absolute;
+}
+
+.izquierda a {
+    position: absolute;
+    text-decoration: none;
+    color: #fdfcef;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.izquierda a:hover {
+    font-size: 1.5em;
+}
+
+.izquierda img {
+    width: 100%;
+    height: auto;
+}
+
+.derecha {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5%;
+    margin-left: 34.5%;
+}
+
+.derecha-sup,
+.derecha-inf {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.derecha div {
+    width: 80%;
+    display: flex;
+}
+
+.derecha div p {
+    text-align: center;
+    margin-top: 0;
+    position: absolute;
+    color: #fdfcef;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.derecha div p:hover {
+    font-size: 1.5em;
+}
+
+.derecha div:nth-child(odd) {
+    align-self: center;
+    position: relative;
+}
+
+.derecha div:nth-child(even) {
+    align-self: center;
+}
+
+.derecha div img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    object-fit: cover;
+}
+
+.derecha div p {
+    margin-top: 0;
+}
+
+.derecha div a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-fin {
+    background-color: #abcfe3;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fin1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fin1 a,
+.redes a,
+.contacto div a {
+    color: #fdfcef;
+    text-decoration: none;
+}
+
+.fin1 a:hover,
+.redes a:hover,
+.contacto div a:hover {
+    font-weight: bold;
+}
+
+.iconos-redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconos-redes img {
+    width: 5%;
+    height: auto;
+    cursor: pointer;
+    margin-left: 1%;
+}
+
+.iconos-contacto img {
+    width: 10%;
+    height: auto;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #1e56c7;
+    color: #fdfcef;
+    text-align: center;
+    padding: 0.5% 0%;
+    bottom: 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    font-weight: bold;
+}
+.cookies {    
+    position: fixed;
+    bottom: 0;
+    background-color: #1e56c7;
+    width: 100%;
+    text-align: center;
+    color: #fdfcef;
+}
+.modalCookies, .modalPrivacidad {
+    display: none;
+    position: absolute;
+    top: 5%;
+    background: #abcfe3;
+    color: #fdfcef;
+    z-index: 99999;
+    height: auto;
+    width: 75%;
+    left: 13%;
+    padding: 2%;
+    font-size: 1em;
+}
+form {
+    width: 250px;
+    margin: 0; 
+    height: 50px;
+    text-align: left;
+    position: relative;
+    margin-bottom: 10%;
+}
+
+form p {
+    text-align: center;
+}
+
+#form label {
+    font-size: 2em;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    color: #739292;
+    font-size: 2em;
+
+}
+
+.clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover~label {
+    color: #1e56c7;
+    font-size: 2em;
+}
+
+input[type="radio"]:checked~label {
+    color: #1e56c7;
+    font-size: 2em;
+}
+iframe{
+    height:230px;
+}
+.comentario{
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
+.res-l{
+    display: none;
+}
+.video{
+    width: 100%;
+
+}
+.car-icon a i{
+    color: #1e56c7;
+    font-size: 1em;
+    transform: translateY(-100%);
+}
